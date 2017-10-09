@@ -7,3 +7,8 @@ isVowel 'a';
 
 isVowel 'b';
 
+let area ::length ::breadth => {
+  length * breadth;
+};
+
+area length::10 breadth::5;
