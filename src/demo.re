@@ -12,3 +12,18 @@ let area ::length ::breadth => {
 };
 
 area length::10 breadth::5;
+
+let isMorning = true;
+
+let data = switch isMorning {
+  | true => "Good morning!"
+  | false => "Hello!"
+  };
+
+/* Tuples */
+
+let getTuple () => {
+  let x = 1;
+  let y = "hello";
+  (x, y)
+};
